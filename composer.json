@@ -1,0 +1,38 @@
+{
+    "description": "Some test",
+    "homepage": "http://i.am",
+    "name": "sibirsky87/s4bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "keywords": ["test"],
+    "authors": [
+        {
+            "name": "Anton Baikov",
+            "homepage": "https://symfony.com/contributors"
+        }
+    ],
+    "require": {
+        "php": "^7.0.8",
+        "doctrine/inflector": "^1.2"
+    },
+    "require-dev": { 
+        "friendsofphp/php-cs-fixer": "^2.8",
+        "symfony/phpunit-bridge": "^3.4|^4.0",
+        "symfony/process": "^3.4|^4.0",
+        "symfony/yaml": "^3.4|^4.0"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-0": {
+            "Sibirsky87\\S4Bundle\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
